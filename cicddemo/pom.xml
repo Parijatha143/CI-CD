@@ -74,5 +74,17 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<username>Parijatha15</username>
+						<password>Sudheer.194</password>
+						<environment>Sandbox</environment>
+						<muleVersion>4.3.0</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>cicddemo</applicationName>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
+</configuration>
 </project>
